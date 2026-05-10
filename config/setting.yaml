@@ -1,0 +1,23 @@
+app:
+  project_name: "Exact 2026"
+  version: "1.0.0"
+  debug: true
+
+rag:
+  reranker: "bge-reranker-base"
+
+embedding:
+  model_name: "text-embedding-3-small"
+
+retrieval:
+  threshold: 0.5
+  top_k: 5
+
+storage:
+  data_dir: "data"
+  vector_db: "storage/vector_db"
+  collection_name: "exact"
+
+langsmith:
+  project: "Exact 2026"
+  endpoint: "https://api.smith.langchain.com"

@@ -1,52 +1,16 @@
-# Core AI
-torch
-transformers
-accelerate
-trl
-datasets
-peft
-
-# Unsloth
-unsloth
-unsloth_zoo
-
-# Inference
-vllm
-
-# Quantization
-bitsandbytes
-
-# Data
-pandas
-numpy
-
-# Tokenizer / HF
-sentencepiece
-protobuf
-huggingface_hub
-hf_transfer
-
-# Solvers
-z3-solver
-sympy
-
-# Validation
 pydantic
+pydantic-settings
 
-# Vector DB / RAG
+langsmith
+langchain
+langchain-community
+langgraph
+
+
+# LlamaIndex
+llama-index
+llama-index-vector-stores-qdrant
 qdrant-client
-pymilvus
 
-# Optional performance libs
-xformers
-triton
-
-# Audio / ffmpeg compatibility
-ffmpeg-python
-
-# Physics simulator
-PySpice
-
-# Misc
-einops
-scipy
+fastapi
+uvicorn
